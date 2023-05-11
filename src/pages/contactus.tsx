@@ -1,6 +1,7 @@
 import * as React from "react"
 import { HeadFC, PageProps } from "gatsby"
 import Layout from "../Layout"
+import Seo from "../components/Seo"
 
 const IndexPage: React.FC<PageProps> = () => {
 
@@ -95,4 +96,5 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Contact Us</title>
+export const Head: HeadFC = () => <Seo title='Contact Us'>
+</Seo>

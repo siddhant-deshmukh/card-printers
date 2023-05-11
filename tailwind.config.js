@@ -9,8 +9,6 @@ module.exports = {
     extend: {
       fontFamily : {
         'pacifico': ["Pacifico", "cursive"],
-        'caveat' : ['Caveat-Regular','cursive1'],
-        'caveat-semi' : ['Caveat-Semi','cursive3'],
         'lobster': ['Lobster','cursive2'],
       }
     },
